@@ -140,6 +140,48 @@ ul {
   clear: both;
 }
 
+.new-hog-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+  margin: auto;
+}
+
+.new-hog-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.new-hog-form input,
+.new-hog-form select {
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.new-hog-form input[type="submit"] {
+  background-color: #f5a9bc;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  border: non;
+  padding: 10px;
+}
+
+.new-hog-form input[type="submit"]:hover {
+  background-color: #e593a5;
+}
+
+.hog-list-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #3B0B0B;
+}
 
 @keyframes App-logo-spin {
   from {
